@@ -1,0 +1,23 @@
+# The server running the webservice
+gitlabjenkins_server_url: http://gitlab.domain.com
+
+# The port of your webserivce
+gitlabjenkins_server_port: 8888
+
+# The GitLab server
+gitlab_server: http://gitlab.domain.com
+
+# The private token for the GitLab API
+gitlab_private_token: KEY
+
+# The URL for the Jenkins server
+jenkins_server: http://user:passwd@jenkins.domain.com:port
+
+# Full path to the log file
+log_file: /var/log/git2j.log
+
+# The max size for a log file
+log_max_bytes: 20971520  # 20mb
+
+# The max number of log files
+log_max_files: 5
